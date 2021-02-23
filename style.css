@@ -3,14 +3,12 @@ body{
     max-width: 90%;
     min-height: 200vh;
     font-family: 'merienda', cursive;
-    
-
 }
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25% (minmax(720px, 992px));
-    grid-template-rows: 19% 5% 300px 300px 300px 10% 25px (minmax(720px, 992px));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 19% 5% 300px 300px 300px 10% 25px;
     grid-gap: 10px;
     background-image: url();
     position: relative;
@@ -259,8 +257,10 @@ footer{
     font-size: 15px;
     background-color: silver;
 }
-/* @media screen and (max-width: 992px){
-    .container{
-        width: 50%;
+@media screen and (max-width: 992px){
+    .body{
+        display:flex;
+        width: auto;
+        height: auto;
     }
-} */
+}
