@@ -9,8 +9,8 @@ body{
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 19% 5% 300px 300px 300px 10% 25px;
+    grid-template-columns: 25% 25% 25% 25% (minmax(720px, 992px));
+    grid-template-rows: 19% 5% 300px 300px 300px 10% 25px (minmax(720px, 992px));
     grid-gap: 10px;
     background-image: url();
     position: relative;
