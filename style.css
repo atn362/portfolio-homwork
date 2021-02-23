@@ -257,10 +257,3 @@ footer{
     font-size: 15px;
     background-color: silver;
 }
-@media screen and (max-width: 992px){
-    .body{
-        display:flex;
-        width: auto;
-        height: auto;
-    }
-}
