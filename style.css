@@ -1,0 +1,253 @@
+body{
+    background-color: gray;
+    max-width: 90%;
+    min-height: 200vh;
+    font-family: 'merienda', cursive;
+    
+
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 19% 5% 300px auto 300px 10%;
+    grid-gap: 10px;
+    background-image: url();
+    position: relative;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar . main"
+    "sidebar . main"
+    "sidebar . main"
+    "footer footer footer footer";  
+}
+/* .container::after{
+    content: '';
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.FP5XgzOhiuu6R1-lgdzO8gHaE7&pid=Api&P=0&w=261&h=175);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+} */
+.img7{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 100%;
+    height: 100%;
+
+}
+header{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(https://naturaily.com/assets/images/5-tips-survive-open-space-office-work.jpg);
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    opacity: 0.5;
+    backdrop-filter: blur(5rem);
+}
+a{
+    font-size: 16px;
+}
+.links{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    color: black;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem); 
+}
+.links a:hover{
+    color: black;
+    font-size: 14px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+.aboutme{
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-right: solid rgb(105, 105, 105);
+    font-size: 24px;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem);
+}
+.aboutme-content{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    border-right: solid rgb(105, 105, 105);
+    font-size: 24px;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem);
+}
+.mywork{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    border-right: solid rgb(105, 105, 105);
+    font-size: 24px;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem);
+}
+.img1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 100%;
+    height: 100%;
+
+}
+.img2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 100%;
+    height: 100%;
+}
+.img3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 100%;
+    height: 100%;
+
+}
+.img4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 100%;
+    height: 100%;
+
+}
+.contacts{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-right: solid rgb(105, 105, 105);
+    font-size: 24px;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem);
+}
+.number{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    border-right: solid rgb(105, 105, 105);
+    font-size: 24px;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem);
+}
+.number a:hover{
+    color: black;
+}
+.email{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    border-right: solid rgb(105, 105, 105);
+    font-size: 24px;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem);
+}
+.email a:hover{
+    color: black;
+}
+.github{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    border-right: solid rgb(105, 105, 105);
+    font-size: 24px;
+    opacity: 0.8;
+    backdrop-filter: blur(5rem);
+}
+.github a:hover{
+    color: black;
+}
+footer{
+    color: black;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+/* @media screen and (max-width: 992px){
+    .container{
+        width: 50%;
+    }
+} */
