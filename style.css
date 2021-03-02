@@ -8,7 +8,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 19% 5% 300px 300px 300px 10% 25px;
+    /* grid-template-rows: 19% 5% 300px 300px 300px 10% 25px; */
     grid-gap: 10px;
     background-image: url();
     position: relative;
